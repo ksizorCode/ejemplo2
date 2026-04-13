@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SportVibe | Descubre Actividades Deportivas</title>
+    <meta name="description" content="Encuentra las mejores actividades deportivas: escalada, surf, yoga, crossfit y más. Únete a nuestra comunidad activa.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">Sport<span>Vibe</span></div>
+        <ul class="nav-links">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#actividades">Actividades</a></li>
+            <li><a href="#">Comunidad</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero">
+        <h1 class="fade-in">MUEVE EL CUERPO</h1>
+        <p class="fade-in" style="animation-delay: 0.2s;">Explora una selección curada de actividades deportivas para todos los niveles y gustos.</p>
+    </section>
+
+    <div class="container" id="actividades">
+        <div class="filters fade-in" style="animation-delay: 0.4s;">
+            <button class="filter-btn active" data-filter="all">Todos</button>
+            <button class="filter-btn" data-filter="outdoor">Aire Libre</button>
+            <button class="filter-btn" data-filter="indoor">Gimnasio</button>
+            <button class="filter-btn" data-filter="water">Acuáticos</button>
+            <button class="filter-btn" data-filter="zen">Cuerpo y Mente</button>
+        </div>
+
+        <div id="activity-grid" class="activity-grid fade-in" style="animation-delay: 0.6s;">
+            <!-- Activities will be injected by JavaScript -->
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 SportVibe. Elevando tu energía a diario.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
